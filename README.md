@@ -32,6 +32,8 @@ __Enabling SSL Verification__
 
 We are using the new, free, cross-platform preview of ["Visual Studio Code"](https://code.visualstudio.com/). There are a number of attractive features and [planned features](http://visualstudio.uservoice.com/forums/293070-visual-studio-code). We are especially interested in NodeJS support, rich intelli-sense, integrated debugging, and sharing common editor settings.
 
+__[Vote to encourage MS to open-source the IDE!](http://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/7755573-open-source-vs-code)__
+
 1. Download [Code](https://code.visualstudio.com/)
 2. Open the "modernet-admin" project directory: `File -> Open folder...`
 3. Switch to Debug (`Ctrl+Shift+D`)
