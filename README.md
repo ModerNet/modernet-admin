@@ -12,14 +12,14 @@ ModerNet is cross-platform friendly.
 6. Change to the "modernet-website" directory
 7. Initialize the project's dependencies: `npm install`
 
-*Note: If you are behind an internet proxy that uses self-signed certificates (e.g. internet monitoring), you may need to disable SSL verification for `git` and `node`.
+Note: If you are behind an internet proxy that uses self-signed certificates (e.g. internet monitoring), you may need to disable SSL verification for `git` and `node`.
+
+_Bower packages may still have an issue. (I briefly use my mobile hotspot to download the bower packages)_
 
 __Disabling SSL Verification__
 
     git config --global http.sslVerify false
     npm config set strict-ssl false
-
-    _Bower packages may still have an issue. (I briefly use my mobile hotspot to download the bower packages)_
 
 __Enabling SSL Verification__
 
