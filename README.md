@@ -13,6 +13,9 @@ ModerNet is cross-platform friendly.
 5. Clone the repository: `git clone https://github.com/modernet/modernet-admin.git`
 6. Change to the "modernet-admin" directory
 7. Initialize the project's dependencies: `npm install`
+8. To run, `npm start`
+9. To continuously run unit tests while you make edits, `npm test`
+10. To run end-to-end user acceptance tests with browser automation, `npm run protractor` _requires the website to be running (`npm start`)_
 
 Note: If you are behind an internet proxy that uses self-signed certificates (e.g. internet monitoring), you may need to disable SSL verification for `git` and `node`.
 

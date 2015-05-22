@@ -6,6 +6,8 @@
   "repository": "https://github.com/modernet/modernet-website",
   "license": "MIT",
   "devDependencies": {
+    "gulp": "3.8.11",
+    "rimraf": "2.2.8",
     "karma": "^0.12.16",
     "karma-chrome-launcher": "^0.1.4",
     "karma-jasmine": "^0.1.5",
@@ -19,6 +21,8 @@
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -a 0.0.0.0 -p 8000"
+    "start": "http-server src -a 0.0.0.0 -p 8000 -d false -o",
+    
+    "preplib": "gulp copy"
   }
 }

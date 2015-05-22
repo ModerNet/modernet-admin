@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "command": "node",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [{
+            "taskName": "copy",
+            "args": ["node_modules\\gulp\\bin\\gulp.js","copy"],
+            "isBuildCommand": true,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        }]
+}
